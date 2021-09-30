@@ -6,10 +6,10 @@
 * Motivation
 ---
 ## Description
-Personal website modified to work on react. This version is more up to date.
-[initial design](https://codyl.github.io/portfolioWebsite/) <br/>
-[Published here](http://codylillywhite.com/) <br/>
-[article about this websites creation](https://codylillyw.medium.com/portfolio-creation-process-d2c2fd6539d5) <br/>
+Personal website modified to work on react. This version is more up to date.<br/>
+[See this website without a framework](https://codyl.github.io/portfolioWebsite/) <br/>
+[See the website where this code is published](http://codylillywhite.com/) <br/>
+[Read an article about this websites creation](https://codylillyw.medium.com/portfolio-creation-process-d2c2fd6539d5) <br/>
 ---
 ## Highlights
 * First code published on a domain
