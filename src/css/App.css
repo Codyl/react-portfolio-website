@@ -1,21 +1,22 @@
 :root {
-  --primary-color: #436B8A;
-  --secondary-color: #6B8A43;
-  --tertiary-color: #8A436B;
+  --primary-color: #436b8a;
+  --secondary-color: #6b8a43;
+  --tertiary-color: #8a436b;
 }
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin: 0px;
   position: relative;
-  background-color: #436B8A;
+  background-color: #436b8a;
   width: 100%;
 }
 #bg {
-  background-image: url("../img/background.jpg");
-  background-size:cover;
+  background-image: url("../img/clouds.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   position: fixed;
@@ -27,7 +28,7 @@ svg {
 }
 nav {
   height: 6vh;
-  background-color: #6E90AB;
+  background-color: #6e90ab;
   position: fixed;
   width: 100%;
   top: 0px;
@@ -37,21 +38,26 @@ nav div {
   float: right;
 }
 #navIcon {
-  float:right;
+  float: right;
   padding: 10px 10px;
   color: white;
 }
 @media screen and (min-width: 600px) {
   .halfed {
-      display: grid;
-      grid-template-columns: 60% auto;
+    display: grid;
+    grid-template-columns: 60% auto;
   }
   .navIconBars {
     display: none;
   }
   .navSectionAnchor {
     display: inline !important;
-    visibility:visible;
+    visibility: visible;
+  }
+  .media-body {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
   }
 }
 @media screen and (max-width: 600px) {
@@ -63,14 +69,18 @@ nav div {
   }
 
   .halfed {
-      display: grid;
-      grid-template-rows: 60% auto;
-      grid-template-columns:none;
-      margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: 60% auto;
+    grid-template-columns: none;
+    margin-bottom: 10px;
+  }
+  .media-body {
+    width: 100%;
+    display: block;
   }
 }
 .anchor:hover {
-  color: #C5CED5;
+  color: #c5ced5;
 }
 #open {
   text-align: center;
@@ -101,28 +111,30 @@ nav div {
 
 /* Text font types */
 .decorativeText {
-  font-family: 'Leelawadee UI', 'Times New Roman', Times, serif;
+  font-family: "Leelawadee UI", "Times New Roman", Times, serif;
   font-size: 3em;
 }
 .paragraphText {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 1em;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 .sectionHeaderText {
-  font-family: 'Lucida Fax', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-  color: #8A436B;
-  
+  font-family: "Lucida Fax", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
+  color: #8a436b;
 }
 .navText {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
   z-index: 1;
 
   display: inherit;
   padding: 1vh 10px;
   float: inherit;
-  
+
   color: white;
   text-decoration: none;
 }
@@ -133,7 +145,7 @@ nav div {
   float: right;
 }
 .left {
-   float: none;
+  float: none;
 }
 .titleNav {
   float: left;
@@ -166,10 +178,10 @@ h2 {
 }
 .box {
   margin-bottom: 10px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 .sideDecor::before {
-  background-color: #C1C1C1;
+  background-color: #c1c1c1;
   content: "";
   float: left;
   display: inline;
@@ -178,7 +190,7 @@ h2 {
   margin-right: 10px;
 }
 .sideDecor::after {
-  background-color: #C1C1C1;
+  background-color: #c1c1c1;
   content: "";
   float: left;
   position: relative;
@@ -198,9 +210,9 @@ h2 {
   height: 100vh;
 }
 .button {
-  background-color: #6B8A43;
+  background-color: #6b8a43;
   border-radius: 10px;
-  border: 3px solid #4F6632;
+  border: 3px solid #4f6632;
   color: white;
   padding: 3px;
   margin: 3px;
@@ -216,7 +228,7 @@ h2 {
 
 .blueBackground {
   width: 100vw;
-  background-color: #436B8A;
+  background-color: #436b8a;
 }
 .block {
   display: block;
