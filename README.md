@@ -1,4 +1,4 @@
-# Portfolio Project v. 2.0.0 (major.minor.subminor)
+# Portfolio Project v. 2.0.0
 ---
 ## Table of Contents
 * Description
