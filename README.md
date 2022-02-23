@@ -3,7 +3,7 @@
 ## Table of Contents
 * Description
 * Highlights
-* Motivation
+* Insights
 ---
 ## Description
 Personal website modified to work on react. This version is more up to date.<br/>
@@ -15,6 +15,7 @@ Personal website modified to work on react. This version is more up to date.<br/
 * First code published on a domain
 * Continued refactoring
 ---
+## Insights
 ### What was your motivation?
 To have one page for hiring managers to look for information about me and find evidence of my ability to learn new things. It showcases my best work. Having a portfolio will 
 also help my own confidence to grow.
